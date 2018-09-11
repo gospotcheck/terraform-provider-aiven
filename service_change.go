@@ -3,10 +3,11 @@ package main
 import (
 	"time"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/jelmersnoeck/aiven"
 	"log"
 	"net/http"
+
+	"github.com/gospotcheck/aiven"
+	"github.com/hashicorp/terraform/helper/resource"
 )
 
 // ServiceChangeWaiter is used to refresh the Aiven Service endpoints when

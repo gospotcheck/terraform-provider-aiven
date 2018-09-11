@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
+	"github.com/gospotcheck/aiven"
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/jelmersnoeck/aiven"
 )
 
 func resourceKafkaTopic() *schema.Resource {

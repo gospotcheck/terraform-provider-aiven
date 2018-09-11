@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/gospotcheck/aiven"
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/jelmersnoeck/aiven"
 )
 
 func resourceProject() *schema.Resource {

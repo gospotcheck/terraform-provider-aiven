@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/jelmersnoeck/aiven"
 	"log"
 	"strings"
 	"time"
+
+	"github.com/gospotcheck/aiven"
+	"github.com/hashicorp/terraform/helper/resource"
 )
 
 // KafkaTopicChangeWaiter is used to refresh the Aiven Kafka Topic endpoints when

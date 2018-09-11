@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/gospotcheck/aiven"
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/jelmersnoeck/aiven"
 )
 
 func resourceService() *schema.Resource {

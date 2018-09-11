@@ -3,8 +3,8 @@ package main
 import (
 	"errors"
 
+	"github.com/gospotcheck/aiven"
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/jelmersnoeck/aiven"
 )
 
 func resourceServiceUser() *schema.Resource {
